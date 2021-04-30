@@ -1,0 +1,84 @@
+/* Type your code here */
+body{
+    background-image: url(../assets/background-image1.png);
+    background-size:cover;
+    height: auto;
+    width:100%;
+}
+h1{
+  margin-left: 50px;
+}
+h4{
+  margin-left: 50px;
+}
+.tableContainer{
+  border-collapse: collapse;
+  background-color: whitesmoke;
+  width: 800px;
+  margin-left: 50px;
+  margin-top: 2rem;
+}
+#name{
+  color: rgb(89, 167, 240);
+}
+td {
+  padding: 10px;
+}
+.row{
+    border: 3px solid grey;
+    border-collapse: collapse;
+    height:30px;
+  }
+  .secondRow{
+  font-weight: bold;
+  }
+ .firstRow{
+  background-color: orangered;
+  }
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top: 750px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 500px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 10;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/*.grid-container {
+	display: grid;
+	grid-template-rows: 50px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;;
+	background-color:rgb(228, 228, 238);
+	width:auto;
+  }
+  .grid-item {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid rgb(228, 228, 238);
+  }
+  .first-row{
+	  background-color: rgb(211, 33, 33);
+  }*/
+
+/* change the font family and spacing as per your project font */
